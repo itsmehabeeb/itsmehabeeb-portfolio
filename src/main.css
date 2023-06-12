@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+#Home {
+  padding-top: 8rem;
+}
+
+#home-row {
+  justify-content: center;
+}
+
+#Home,
+#Skills,
+footer {
+  color: #fff;
+  background-color: #660e0e;
+}
+
+#Home h1 {
+  color: #660e0e;
+  font-weight: 600;
+  -webkit-text-stroke: 1.5px #fff;
+}
+
+#About,
+#Portfolio {
+  color: #fff;
+  background-color: #9b0e0e;
+}
+
+#About h2,
+#Portfolio h2 {
+  color: #9b0e0e;
+  font-weight: 600;
+  -webkit-text-stroke: 1.5px #fff;
+}
+
+#Skills h2 {
+  color: #660e0e;
+  font-weight: 600;
+  -webkit-text-stroke: 1.5px #fff;
+}
+
+.portfolio:hover {
+  cursor: pointer;
+  filter: brightness(65%);
+}
+
+.bg-purple {
+  background-color: #8a2be2;
+}
+
+#toTop {
+  color: #fff;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  font-size: 25px;
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #9b0e0e;
+}
+
+#toTop:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 884px) {
+  #home-row {
+    justify-content: space-evenly;
+  }
+  .portfolio-row {
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .portfolio-row {
+    gap: 35px;
+  }
+}
